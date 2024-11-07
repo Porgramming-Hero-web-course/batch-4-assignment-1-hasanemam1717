@@ -2,11 +2,11 @@
     //Problem-3
 
     function countWordOccurrences(sentence: string, word: string): number {
-        const lowerCaseSentence = sentence.toLowerCase();
-        const lowerCaseWord = word.toLowerCase();
+        const lowerSentence = sentence.toLowerCase();
+        const lowerWord = word.toLowerCase();
 
-        const words = lowerCaseSentence.split(/\b/);
-        const result = words.filter(word => word === lowerCaseWord).length;
+        const words = lowerSentence.split(/\b/);
+        const result = words.filter(word => word === lowerWord).length;
         return result;
     }
 
