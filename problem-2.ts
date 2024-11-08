@@ -4,7 +4,8 @@
 
     
     function removeDuplicates(numbers: number[]): number[] {
-        return numbers.filter((element, index) => numbers.indexOf(element) === index);
+        const result =numbers.filter((element, index) => numbers.indexOf(element) === index);
+        return result;
     }
 
     // console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5]));

@@ -15,10 +15,12 @@
 
     function calculateShapeArea(shape: Shape): number {
         if (shape.shape === 'circle') {
-            return Math.PI * shape.radius * shape.radius;
+            const resultCircle = Math.PI * shape.radius * shape.radius;
+            return resultCircle;
         }
         else (shape.shape === 'rectangle'); {
-            return shape.width * shape.height;
+            const resultRectangle = shape.width * shape.height;
+            return resultRectangle;
         }
     }
 
